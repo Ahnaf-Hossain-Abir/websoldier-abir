@@ -1,4 +1,4 @@
-import Subsection from '@/Components/CommonComponents/Subsection/Subsection';
+import Subsection from '../../../Components/CommonComponents/Subsection/Subsection';
 import React from 'react';
 
 const Aboutheader = () => {

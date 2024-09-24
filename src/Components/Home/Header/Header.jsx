@@ -8,7 +8,7 @@ const Header = () => {
     },
     {
       name: "Experience",
-      path: "/",
+      path: "#experience",
     },
     {
       name: "Projects",
@@ -30,7 +30,7 @@ const Header = () => {
       <div>
         <ul className="flex items-center gap-x-10 ">
           {links.map((link) => (
-            <li key={link.path}>
+            <li className="border-b-2 border-transparent hover:border-gray-300 transition duration-300 hover:text-gray-400 hover:duration-300" key={link.path}>
               <Link className=" text-[24px] font-normal" href={link.path}>
                 {link.name}
               </Link>

@@ -1,12 +1,11 @@
 import Image from "next/image";
 import abir from "../../../../public/abir (2).jpg";
-import { FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
 
 const Banner = () => {
   return (
-    <section className="max-w-screen-lg mx-auto flex flex-row-reverse items-center justify-center gap-x-16 h-screen">
+    <section className="max-w-screen-lg mx-auto flex flex-row-reverse justify-center items-center gap-x-16 h-screen ">
       <div className="">
         <Image src={abir} width={350} className="w-[400px] rounded-lg"/>
       </div>
