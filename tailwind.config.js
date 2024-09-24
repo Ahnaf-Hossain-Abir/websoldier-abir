@@ -1,19 +1,17 @@
 /** @type {import('tailwindcss').Config} */
-const { fontFamily } = require('tailwindcss/defaultTheme');
+import { fontFamily } from 'tailwindcss/defaultTheme';
 
-module.exports = {
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
-  theme: {
-    extend: {
-        fontFamily: {
-            poppins: ['Poppins', ...fontFamily.sans],
-            arial: ['Arial', ...fontFamily.sans],
-        },
+export const content = [
+  "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+  "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+  "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+];
+export const theme = {
+  extend: {
+    fontFamily: {
+      poppins: ['Poppins', ...fontFamily.sans],
+      arial: ['Arial', ...fontFamily.sans],
     },
   },
-  plugins: [],
 };
+export const plugins = [];
