@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <section className="max-w-screen-lg mx-auto flex flex-row-reverse justify-center items-center gap-x-16 h-screen ">
       <div className="">
-        <Image src={abir} width={350} className="w-[400px] rounded-lg"/>
+        
       </div>
 
       <div className="flex flex-col gap-4">
