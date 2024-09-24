@@ -4,13 +4,13 @@ import abir from "../../../../public/abir.jpg"
 const Aboutimg = () => {
     return (
         <div>
-            {/* <Image
+            <Image
             src={abir}
             alt='abir'
             width={400}
             height={400}
             className='rounded-3xl'
-            /> */}
+            />
         </div>
     );
 };
