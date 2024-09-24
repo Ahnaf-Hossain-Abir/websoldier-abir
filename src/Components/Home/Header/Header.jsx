@@ -4,7 +4,7 @@ const Header = () => {
   const links = [
     {
       name: "About",
-      path: "/",
+      path: "#about",
     },
     {
       name: "Experience",
@@ -16,14 +16,14 @@ const Header = () => {
     },
     {
       name: "Contact",
-      path: "/",
+      path: "#contact",
     },
   ];
   return (
     <nav className=" h-[17vh] flex justify-around items-center">
       <div>
         <Link href="/">
-          <h1 className="text-3xl ">Ahnaf Abir</h1>
+          <h1 className="text-3xl ">WebSoldier</h1>
         </Link>
       </div>
 
