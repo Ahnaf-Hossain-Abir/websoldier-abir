@@ -11,7 +11,7 @@ const Banner = () => {
       </div>
 
       <div className="flex flex-col gap-4">
-        <p className="font-semibold text-gray-500 text-center">Hello, I'm</p>
+        <p className="font-semibold text-gray-500 text-center">Hello, I am</p>
         <h1 className="font-bold text-5xl text-center">Ahnaf Abir</h1>
         <p className="text-gray-500 text-[28px] font-bold text-center">
           Frontend Developer
